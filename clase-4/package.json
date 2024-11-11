@@ -1,0 +1,21 @@
+{
+  "name": "clase-3",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "dev1": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "clase-3": "file:",
+    "cors": "2.8.5",
+    "express": "4.21.1",
+    "zod": "3.23.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}

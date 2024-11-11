@@ -1,0 +1,21 @@
+{
+  "name": "clase-2",
+  "version": "1.0.0",
+  "main": "http.js",
+  "scripts": {
+    "dev1": "nodemon ./pokeapi_sin_express/server.js",
+    "dev2": "nodemon http.js",
+    "dev3": "nodemon ./PokeApi/expresivo.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "clase-2": "file:",
+    "express": "4.21.1"
+  }
+}

@@ -1,0 +1,8 @@
+###Try Bulbasaur
+GET http://localhost:1234/pokemon/bulbasaur
+
+###Try Charmander
+GET http://localhost:1234/pokemon/charmander
+
+###Try Squirtle
+GET http://localhost:1234/pokemon/squirtle
