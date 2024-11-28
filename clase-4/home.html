@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NodeJS Server</title>
+    <script type="module">
+        document.addEventListener('DOMContentLoaded', async () => {
+            let html;
+            await fetch('http://localhost:1234/')
+            .then(res => {
+                if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
+                return res.text();
+            })
+            .then(text => {
+                html = `<h1>${text}</h1>`;
+            })
+            .catch(error => {
+                console.error('Error fetching data:', error);
+            });
+            document.querySelector('main').innerHTML = html;
+        });     
+    </script>    
+</head>
+<body>    
+    <main></main>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        body {
+            background-color: #141f25;
+        }
+        h1 {
+            background-color: #cde8f6;
+            color: #141f25;
+            text-align: center;
+            padding: 30px;
+        }
+    </style>    
+</body>
+</html>

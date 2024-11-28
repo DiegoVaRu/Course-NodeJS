@@ -1,0 +1,30 @@
+### ALL MOVIES
+GET http://localhost:1234/movies
+
+### MOVIE BY ID
+GET http://localhost:1234/movies/b652ac7c-a453-11ef-97cb-626f03c3c8a1
+
+### MOVIE BY GENDER
+GET http://localhost:1234/movies?genre=Crime
+
+### ADD A MOVIE
+POST http://localhost:1234/movies
+Content-Type: application/json
+  
+{
+  "title": "Forrest Gump",
+  "year": 1994,
+  "director": "Robert Zemeckis",
+  "duration": 142,
+  "poster": "https://i.ebayimg.com/images/g/qR8AAOSwkvRZzuMD/s-l1600.jpg",
+  "genre": ["Drama", "Romance"],
+  "rate": 8.8
+}
+
+### UPDATE MOVIE INFO
+PATCH http://localhost:1234/movies/b6e03689-cccd-478e-8565-d92f40813b13
+Content-Type: application/json
+
+{
+  "year": 2014
+}

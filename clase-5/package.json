@@ -1,0 +1,21 @@
+{
+  "name": "clase-5",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start:mysql": "node --watch server-mysql.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "clase-4": "file:",
+    "clase-5": "file:",
+    "cors": "2.8.5",
+    "express": "4.21.1",
+    "mysql2": "^3.11.4",
+    "zod": "^3.23.8"
+  }
+}
