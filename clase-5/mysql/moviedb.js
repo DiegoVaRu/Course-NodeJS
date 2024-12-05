@@ -104,7 +104,15 @@ export class MovieManager {
     }
 
     static async updateMovie(id, input) {
-        //todo
+        const {
+            genre,
+            title,
+            year,
+            director,
+            duration,
+            poster,
+            rate
+        } = input.data
     }
 
     static async deleteMovie({id}) {

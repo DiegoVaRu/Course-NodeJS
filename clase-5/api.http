@@ -2,7 +2,7 @@
 GET http://localhost:1234/movies
 
 ### MOVIE BY ID
-GET http://localhost:1234/movies/b652ac7c-a453-11ef-97cb-626f03c3c8a1
+GET http://localhost:1234/movies/1db5744d-ad08-11ef-8ebe-fac7f67b852a
 
 ### MOVIE BY GENDER
 GET http://localhost:1234/movies?genre=Crime

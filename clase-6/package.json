@@ -1,0 +1,22 @@
+{
+  "name": "clase-6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --watch ./server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@libsql/client": "^0.14.0",
+    "clase-6": "file:",
+    "dotenv": "^16.4.7",
+    "express": "4.21.1",
+    "morgan": "1.10.0",
+    "picocolors": "1.1.1",
+    "socket.io": "4.8.1"
+  }
+}
